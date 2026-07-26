@@ -134,5 +134,15 @@ Key takeaways include:
 | **Container**       | Like a folder that organizes blobs.                                   |
 | **Blob**            | The actual file stored in Azure (image, PDF, text file, video, etc.). |
 
+## Future Improvements
+
+In future versions of this project I plan to:
+
+- Enable Blob Versioning
+- Configure Lifecycle Management
+- Generate Shared Access Signatures (SAS)
+- Deploy using Azure CLI
+- Deploy using Bicep or Terraform
+- Integrate with Azure Functions
 
 

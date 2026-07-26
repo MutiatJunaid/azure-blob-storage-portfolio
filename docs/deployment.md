@@ -65,7 +65,23 @@ I selected private access to ensure that only authenticated users or application
 
 ✅ Completed
 
+## Step 4: Upload a Blob
+
+A sample file was uploaded to verify that Azure Blob Storage was working correctly.
+
+### Uploaded File
+
+- **File Name:** activity.jpg
+- **Upload Method:** Azure Portal
+
+### Result
+
+The file was successfully uploaded and is now stored as a blob within the 'public -container'container.
+
 ### Screenshot
+<img width="960" height="428" alt="Screenshot 2026-07-21 015941" src="https://github.com/user-attachments/assets/7cd568ac-92c4-40b6-8f34-79a54ae784c0" />
+<img width="960" height="528" alt="Screenshot 2026-07-21 020112" src="https://github.com/user-attachments/assets/468c3645-c2c8-4fd4-bde1-bc2a2ecc599e" />
+
 
 
 

@@ -71,4 +71,4 @@ README.md
 
 ## Author
 
-Your Name
+Mutiat Junaid

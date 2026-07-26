@@ -82,11 +82,14 @@ The file was successfully uploaded and is now stored as a blob within the 'publi
 <img width="960" height="428" alt="Screenshot 2026-07-21 015941" src="https://github.com/user-attachments/assets/7cd568ac-92c4-40b6-8f34-79a54ae784c0" />
 <img width="960" height="528" alt="Screenshot 2026-07-21 020112" src="https://github.com/user-attachments/assets/468c3645-c2c8-4fd4-bde1-bc2a2ecc599e" />
 
+
+
 | Azure Term          | Meaning                                                               |
 | ------------------- | --------------------------------------------------------------------- |
 | **Storage Account** | The top-level Azure storage resource.                                 |
 | **Container**       | Like a folder that organizes blobs.                                   |
 | **Blob**            | The actual file stored in Azure (image, PDF, text file, video, etc.). |
+
 
 ## What I Learned
 

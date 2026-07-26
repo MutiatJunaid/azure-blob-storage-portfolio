@@ -102,5 +102,25 @@ Key concepts:
 - Private containers prevent anonymous access and improve security.
 - Azure Portal provides an easy way to manage storage resources.
 
+## Step 5: Configure Blob Soft Delete
+
+Blob Soft Delete was enabled to protect data from accidental deletion.
+
+### Configuration
+
+- Feature: Blob Soft Delete
+- Purpose: Recover deleted blobs within the retention period
+- Status: Enabled
+
+### Why this feature?
+
+Soft Delete helps protect against accidental or unintended data loss. When a blob is deleted, it can be restored within the configured retention period instead of being permanently removed immediately.
+
+### Screenshot
+
+<img width="960" height="430" alt="softdelete" src="https://github.com/user-attachments/assets/883d71ef-82fd-4f28-b012-038405f36978" />
+
+<img width="960" height="428" alt="softdelete2" src="https://github.com/user-attachments/assets/5eff893a-8e60-4d87-bb33-c6b98fa6abdc" />
+
 
 

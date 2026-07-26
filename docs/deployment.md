@@ -68,29 +68,12 @@ The file was successfully uploaded and is now stored as a blob within the 'publi
 <img width="960" height="428" alt="Screenshot 2026-07-21 015941" src="https://github.com/user-attachments/assets/7cd568ac-92c4-40b6-8f34-79a54ae784c0" />
 <img width="960" height="528" alt="Screenshot 2026-07-21 020112" src="https://github.com/user-attachments/assets/468c3645-c2c8-4fd4-bde1-bc2a2ecc599e" />
 
-| Azure Term          | Meaning                                                               |
-| ------------------- | --------------------------------------------------------------------- |
-| **Storage Account** | The top-level Azure storage resource.                                 |
-| **Container**       | Like a folder that organizes blobs.                                   |
-| **Blob**            | The actual file stored in Azure (image, PDF, text file, video, etc.). |
 
-
-## What I Learned
-
-Through this exercise I learned how Azure Blob Storage is structured and how data is organized.
-
-Key concepts:
-- A Storage Account is the top-level Azure resource.
-- A Blob Container organizes related blobs.
-- A Blob is an individual file stored in Azure.
-- Private containers prevent anonymous access and improve security.
-- Azure Portal provides an easy way to manage storage resources.
-
-## Step 5: Configure Blob Soft Delete
+## Step 5: Configure storage setting
 
 Blob Soft Delete was enabled to protect data from accidental deletion.
 
-## Step 5: Configure Data Protection
+## Step 6: Configure data protection
 
 To improve data resilience, I configured Azure Blob Storage data protection features.
 
@@ -113,7 +96,7 @@ Blob Soft Delete and Container Soft Delete provide protection against accidental
 <img width="960" height="430" alt="softdelete" src="https://github.com/user-attachments/assets/883d71ef-82fd-4f28-b012-038405f36978" />
 
 <img width="960" height="428" alt="softdelete2" src="https://github.com/user-attachments/assets/5eff893a-8e60-4d87-bb33-c6b98fa6abdc" />
-## Step 5: Configure Storage Account Settings
+## Step 7: Configure Storage Account Settings
 
 The Storage Account was configured with security-focused settings to align with Azure best practices.
 
@@ -129,6 +112,27 @@ The Storage Account was configured with security-focused settings to align with 
 These settings improve the security of the Storage Account by enforcing encrypted connections, using a modern TLS version, and reducing reliance on shared access keys.
 
 <img width="960" height="540" alt="data protection" src="https://github.com/user-attachments/assets/09a3c938-4369-4d68-9f24-64984353052d" />
+
+## Lesson learned
+
+## Lessons Learned
+
+Through this project I gained practical experience with Azure Blob Storage and learned how Azure organizes storage resources.
+
+Key takeaways include:
+
+- Storage Accounts provide the foundation for Azure Storage services.
+- Blob Containers organize files within a Storage Account.
+- Private containers improve security by preventing anonymous access.
+- Secure Transfer and TLS 1.2 help protect data during transmission.
+- Blob Soft Delete and Container Soft Delete help recover accidentally deleted data.
+- GitHub documentation is valuable for communicating technical work clearly.
+
+   | Azure Term          | Meaning                                                               |
+| ------------------- | --------------------------------------------------------------------- |
+| **Storage Account** | The top-level Azure storage resource.                                 |
+| **Container**       | Like a folder that organizes blobs.                                   |
+| **Blob**            | The actual file stored in Azure (image, PDF, text file, video, etc.). |
 
 
 

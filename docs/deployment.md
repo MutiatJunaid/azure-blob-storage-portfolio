@@ -128,7 +128,7 @@ Key takeaways include:
 - Blob Soft Delete and Container Soft Delete help recover accidentally deleted data.
 - GitHub documentation is valuable for communicating technical work clearly.
 
-   | Azure Term          | Meaning                                                               |
+ | Azure Term          | Meaning                                                               |
 | ------------------- | --------------------------------------------------------------------- |
 | **Storage Account** | The top-level Azure storage resource.                                 |
 | **Container**       | Like a folder that organizes blobs.                                   |

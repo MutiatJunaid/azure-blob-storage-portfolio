@@ -1,37 +1,74 @@
-# azure-blob-storage-portfolio
-Azure Blob Storage portfolio project demonstrating cloud storage 
 # Azure Blob Storage Portfolio
 
-## Overview
+## Project Overview
 
-This repository documents my Azure Blob Storage project.
+This project demonstrates the deployment and configuration of Azure Blob Storage to securely store and manage unstructured data.
 
-The goal of this project is to demonstrate practical knowledge of Microsoft Azure Storage services by creating, configuring, and managing Azure Blob Storage.
+The project was completed using the Azure Portal and focuses on storage deployment, security configuration, and data protection features.
+
+---
 
 ## Objectives
 
-- Create an Azure Storage Account
-- Create Blob Containers
-- Upload and download files
-- Configure access permissions
-- Generate Shared Access Signatures (SAS)
-- Explore storage tiers
-- Use Azure CLI
+- Deploy an Azure Storage Account
+- Create a private Blob Container
+- Upload files to Azure Blob Storage
+- Configure secure storage settings
+- Enable Blob Soft Delete
+- Enable Container Soft Delete
 - Document the deployment process
 
 ---
 
-## Technologies
+## Azure Services Used
+
+- Azure Resource Group
+- Azure Storage Account
+- Azure Blob Storage
+- Azure Data Protection
+
+---
+
+## Security Features
+
+- HTTPS only (Secure Transfer Enabled)
+- TLS 1.2
+- Private Blob Container
+- Storage Account Key Access Disabled
+- Blob Soft Delete
+- Container Soft Delete
+
+---
+
+## Repository Structure
+
+```text
+docs/
+screenshots/
+scripts/
+README.md
+```
+
+---
+
+## Skills Demonstrated
 
 - Microsoft Azure
+- Azure Storage Accounts
 - Azure Blob Storage
-- Azure CLI
 - Azure Portal
-- Azure Storage Explorer
-- GitHub
+- Cloud Security
+- Data Protection
+- GitHub Documentation
 
 ---
 
 ## Project Status
 
-🚧 Currently in progress.
+✅ Completed
+
+---
+
+## Author
+
+Your Name

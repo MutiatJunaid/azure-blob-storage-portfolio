@@ -106,15 +106,23 @@ Key concepts:
 
 Blob Soft Delete was enabled to protect data from accidental deletion.
 
+## Step 5: Configure Data Protection
+
+To improve data resilience, I configured Azure Blob Storage data protection features.
+
 ### Configuration
 
-- Feature: Blob Soft Delete
-- Purpose: Recover deleted blobs within the retention period
-- Status: Enabled
+| Feature | Status |
+|---------|--------|
+| Blob Soft Delete | Enabled |
+| Container Soft Delete | Enabled |
+| Retention Period | 7 Days |
+| Blob Versioning | Disabled |
+| Permanent Delete | Disabled |
 
-### Why this feature?
+### Why these settings?
 
-Soft Delete helps protect against accidental or unintended data loss. When a blob is deleted, it can be restored within the configured retention period instead of being permanently removed immediately.
+Blob Soft Delete and Container Soft Delete provide protection against accidental deletion by allowing deleted data to be recovered within the configured retention period. For this project, a retention period of seven days was selected to demonstrate Azure's built-in data protection capabilities while keeping the configuration simple.
 
 ### Screenshot
 

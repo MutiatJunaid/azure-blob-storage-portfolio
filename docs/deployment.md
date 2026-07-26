@@ -15,9 +15,27 @@ A Resource Group was created in Azure to organize and manage all resources used 
 
 ### Screenshot
 <img width="960" height="430" alt="Screenshot 2026-07-21 002008" src="https://github.com/user-attachments/assets/358ad0e2-8b6f-4755-bff4-3ba1db10da59" />
+## Step 2: Create Storage Account
+
+A Storage Account was created to host Azure Blob Storage for this project.
+
+### Storage Account Details
+
+- **Storage Account Name:** myfirststorage1
+- **Performance:** Standard
+- **Redundancy:** Locally Redundant Storage (LRS)
+- **Region:** west us3
+
+### Why these settings?
+
+- **Standard** provides cost-effective storage suitable for most applications.
+- **LRS** keeps three copies of the data within a single Azure region, providing durability while keeping costs low for a portfolio project.
+
+### Status
+
+✅ Completed
+
+### Screenshot
 
 
 
-
-
-Resource Group creation screenshot will be added here.

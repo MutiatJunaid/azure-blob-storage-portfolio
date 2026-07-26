@@ -61,7 +61,10 @@ README.md
 - Data Protection
 - GitHub Documentation
 
----
+## Documentation
+
+- [Deployment Guide](docs/deployment.md)
+- [Architecture Diagram](docs/architecture.md)
 
 ## Project Status
 

@@ -88,7 +88,16 @@ The file was successfully uploaded and is now stored as a blob within the 'publi
 | **Container**       | Like a folder that organizes blobs.                                   |
 | **Blob**            | The actual file stored in Azure (image, PDF, text file, video, etc.). |
 
+## What I Learned
 
+Through this exercise I learned how Azure Blob Storage is structured and how data is organized.
+
+Key concepts:
+- A Storage Account is the top-level Azure resource.
+- A Blob Container organizes related blobs.
+- A Blob is an individual file stored in Azure.
+- Private containers prevent anonymous access and improve security.
+- Azure Portal provides an easy way to manage storage resources.
 
 
 

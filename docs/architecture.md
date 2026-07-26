@@ -7,19 +7,5 @@ This project demonstrates the deployment of Azure Blob Storage to securely store
 ## Architecture Diagram
 
 ```text
-                    Azure Subscription
-                           │
-                           ▼
-                 Resource Group
-                 (stoageaccount-rg)
-                           │
-                           ▼
-                 Storage Account
-                  (myfirststorage1)
-                           │
-                           ▼
-                  Blob Container
-                 (public container)
-                           │
-                           ▼
-                  Uploaded Blob/File
+               
+                  <img width="1536" height="1024" alt="image" src="https://github.com/user-attachments/assets/37ecb79b-443d-4d12-bea4-65f507311658" />

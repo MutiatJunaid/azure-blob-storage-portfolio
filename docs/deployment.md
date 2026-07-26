@@ -33,6 +33,27 @@ A Storage Account was created to host Azure Blob Storage for this project.
 
 ### Status
 
+## Step 3: Create Blob Container
+
+A private Blob Container was created to store files securely within the Storage Account.
+
+### Container Details
+
+- **Container Name:** public-container
+- **Access Level:** Private (No anonymous access)
+
+### Why Private?
+
+I selected private access to ensure that only authenticated users or applications with the appropriate permissions can access the files. This follows Azure security best practices.
+
+### Status
+
+✅ Completed
+
+### Screenshot
+
+
+
 ✅ Completed
 
 ### Screenshot

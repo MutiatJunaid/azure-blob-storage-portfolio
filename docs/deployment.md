@@ -69,6 +69,13 @@ I selected private access to ensure that only authenticated users or application
 
 A sample file was uploaded to verify that Azure Blob Storage was working correctly.
 
+| Azure Term          | Meaning                                                               |
+| ------------------- | --------------------------------------------------------------------- |
+| **Storage Account** | The top-level Azure storage resource.                                 |
+| **Container**       | Like a folder that organizes blobs.                                   |
+| **Blob**            | The actual file stored in Azure (image, PDF, text file, video, etc.). |
+
+
 ### Uploaded File
 
 - **File Name:** activity.jpg

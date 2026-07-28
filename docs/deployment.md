@@ -28,7 +28,6 @@ A Storage Account was created to host Azure Blob Storage for this project.
 
 - **Standard** provides cost-effective storage suitable for most applications.
 - **LRS** keeps three copies of the data within a single Azure region, providing durability while keeping costs low for a portfolio project.
-### Screenshot
 
 <img width="960" height="429" alt="storage accout" src="https://github.com/user-attachments/assets/e38fa951-abba-4e12-8f9c-c284683d1b8e" />
 <img width="960" height="428" alt="storageaccount" src="https://github.com/user-attachments/assets/92094e47-9384-4975-9017-a95375d96e33" />
@@ -46,7 +45,6 @@ A private Blob Container was created to store files securely within the Storage 
 
 I selected private access to ensure that only authenticated users or applications with the appropriate permissions can access the files. This follows Azure security best practices.
 
-### Screenshot
 
 <img width="960" height="432" alt="container1" src="https://github.com/user-attachments/assets/f4e72410-6b6a-4dac-928f-b4fc4b422cc0" />
 <img width="960" height="426" alt="container2" src="https://github.com/user-attachments/assets/422ef798-de7f-49b0-83ec-879432be3abe" />
@@ -64,7 +62,6 @@ A sample file was uploaded to verify that Azure Blob Storage was working correct
 
 The file was successfully uploaded and is now stored as a blob within the 'public -container'container.
 
-### Screenshot
 <img width="960" height="428" alt="Screenshot 2026-07-21 015941" src="https://github.com/user-attachments/assets/7cd568ac-92c4-40b6-8f34-79a54ae784c0" />
 <img width="960" height="528" alt="Screenshot 2026-07-21 020112" src="https://github.com/user-attachments/assets/468c3645-c2c8-4fd4-bde1-bc2a2ecc599e" />
 
@@ -91,7 +88,6 @@ To improve data resilience, I configured Azure Blob Storage data protection feat
 
 Blob Soft Delete and Container Soft Delete provide protection against accidental deletion by allowing deleted data to be recovered within the configured retention period. For this project, a retention period of seven days was selected to demonstrate Azure's built-in data protection capabilities while keeping the configuration simple.
 
-### Screenshot
 
 <img width="960" height="430" alt="softdelete" src="https://github.com/user-attachments/assets/883d71ef-82fd-4f28-b012-038405f36978" />
 
@@ -112,8 +108,6 @@ The Storage Account was configured with security-focused settings to align with 
 These settings improve the security of the Storage Account by enforcing encrypted connections, using a modern TLS version, and reducing reliance on shared access keys.
 
 <img width="960" height="540" alt="data protection" src="https://github.com/user-attachments/assets/09a3c938-4369-4d68-9f24-64984353052d" />
-
-## Lesson learned
 
 ## Lessons Learned
 
